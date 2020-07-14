@@ -1,0 +1,45 @@
+---
+title: "A Simple Spline-based Multilvel Modeling Approach(P-Spline)"
+author: "Choi TaeYoung"
+date: '2019 11 29 '
+output:
+  beamer_presentation: default
+  ioslides_presentation: default
+  powerpoint_presentation: default
+  slidy_presentation: default
+mainfont: NanumGothic
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## About paper
+This paper introduce a spline-based multilevel approach for effectively analyzing complex data collected from multiple sourse.
+
+
+## Slide with Bullets
+:::::::::::::: {.columns}
+::: {.column}
+- Bullet 1
+:::
+::: {.column}
+- Bullet 2
+- Bullet 3
+:::
+::::::::::::::
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
